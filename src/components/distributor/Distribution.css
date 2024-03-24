@@ -1,0 +1,10 @@
+.distributed{
+    width: 100vw;
+    display: flex;
+    justify-content: space-evenly ;
+    margin-top: 2%;
+    overflow: hidden;
+    background-color: whitesmoke;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;    
+}
+
