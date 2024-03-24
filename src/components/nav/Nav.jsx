@@ -8,7 +8,7 @@ let Nav =()=>{
     return(
         <>
            <div className= "nav">
-                     <div><a href="#"><img src={Logo} alt="" /></a></div>
+                     <div><a href="#"><img src={Logo} alt="" /></a></div>   
                      <div className= "navigates">
                           <div><a href="#">DISNEY+</a></div>
                           <div><a href="#">SHOP</a></div>

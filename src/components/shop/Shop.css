@@ -1,6 +1,9 @@
-.shop_sec{
-    height: 100vh;
+.shopSection{
+    height: 70vh;
     width: 100vw;
+    display: flex;
+    flex-direction: column;
+    
 }
 #shopW{
     margin-top: 3%;
@@ -10,9 +13,38 @@
 }
 
 .shopImage{
-    margin-left: 5%;
-    width: 80wv;
+    /* margin-left: 5%; */
+    width: 80vw;
+    height: 60vh;
+    background-image: url("../../src/assets/fatherandChild.jpeg");
+    background-repeat: no-repeat;
+    align-self: center;
+    background-size: contain;
 }
 #shopImage{
     width: 1200px;
+}
+.imgText{
+    float:left;
+    margin: 100px;
+    width: 400px;
+    color: white;
+    text-align: center;
+}
+#linkText{
+    color: white;
+    text-decoration: none;
+}
+#textImg{
+    width: 180px;
+    /* background-color: saddlebrown; */
+}
+.divimg{
+    display: flex;
+    align-items: center;
+}
+.textimg{
+    font-size: 30px;
+    font-weight: 800;
+    margin-left: -15px;
 }
